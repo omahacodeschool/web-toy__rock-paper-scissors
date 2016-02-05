@@ -75,7 +75,7 @@ MyApp.get "/:p1_weapon/:p2_weapon" do
 end
 ```
 
-Of course, you'll need a working `rps_justice` method. More on that further down.
+Of course, you'll need a working `rps_justice` method. More on that [further down](#the-rock-paper-scissors-algorithm).
 
 But assuming that works, your controller action would be quite nifty! Remember the 3 links that Player 2 would see when it's their turn?
 
