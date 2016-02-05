@@ -129,7 +129,7 @@ You need to make sure that Player 2 is presented with valid links. Otherwise, th
 I've outlined the links you need to show Player 2 here:
 
 Player 1 chose... | So they clicked a link to... | Thus, Player 2 sees...
------------------ | ---------------------------- | ---------------------------_
+----------------- | ---------------------------- | ---------------------------
 rock              | `/rock`                      | Rock (linked to `/rock/rock`)<br>Paper (linked to `/rock/paper`)<br>Scissors (linked to `/rock/scissors`)
 paper              | `/paper`                      | Rock (linked to `/paper/rock`)<br>Paper (linked to `/paper/paper`)<br>Scissors (linked to `/paper/scissors`)
 scissors              | `/scissors`                      | Rock (linked to `/scissors/rock`)<br>Paper (linked to `/scissors/paper`)<br>Scissors (linked to `/scissors/scissors`)
