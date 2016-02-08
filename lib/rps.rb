@@ -11,7 +11,18 @@
 #   rps_justice('paper', 'paper')
 #   # => 'Tie game!'
 #
+
+
 # Returns the result String.
-def rps_justice(p1_weapon, p2_weapon)
-  # Your code goes here!
+def rps_justice(p1, p2)
+
+	if (p1 == "scissors" && p2 == "paper") || (p1 == "rock" && p2 == "scissors") || (p1 == "paper" && p2 == "rock")
+	 	return "PLAYER ONE WINS!"
+	  
+	elsif (p2 == "scissors" && p1 == "paper") || (p2 == "rock" && p1 == "scissors") || (p2 == "paper" && p1 == "rock")
+	 	return "PLAYER TWO WINS!"
+
+	else
+		return "Tie game. No one wins."
+	end
 end
